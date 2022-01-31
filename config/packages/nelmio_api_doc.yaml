@@ -1,0 +1,9 @@
+nelmio_api_doc:
+    documentation:
+        info:
+            title: Custom API
+            description: https://www.dev-web.io/2022/01/31/une-doc-pour-notre-api-symfony/
+            version: 1.0.0
+    areas: # to filter documented areas
+        path_patterns:
+            - ^/api(?!/doc$) # Accepts routes under /api except /api/doc
